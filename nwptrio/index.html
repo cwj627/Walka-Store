@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Walka Store</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--what is this?-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <script type = "text/javascript">
+		
+			
+            	var age = window.prompt("Please enter your age.");
+        		if (age<18)
+				{
+                window.alert("You must be 18 or older to view the site");
+				location.href = 'http://pbskids.org/';		
+        		}
+			
+	</script>
+  </head>
+  <!-- NAVBAR
+    ================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Walka Store</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="http://nwptrio.altervista.org/index-carousel.html#">Home</a></li>
+                <li><a href="http://nwptrio.altervista.org/About_us.html">About Us</a></li>
+                <li><a href="http://nwptrio.altervista.org/Contact_Us.html">Contact Us</a></li>
+              		
+                    <li><a class="navbar-brand" href="#"></a>
+					<font color="#FFFFFF"><p id="demo"></p></font>
+					<script>
+					document.getElementById("demo").innerHTML = Date();
+					</script>
+					</li>	
+                    
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Carousel
+          ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+          
+            <!-- This is for the first slide, Walka Competition--> 
+                
+                <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Calling designers! <span class="text-muted">Walka-shirt Design Competition!</span></h2>
+                  <p class="lead">Coming soon in December 2017...Winner's design will be displayed on our store front and 100% of sales will go directly to the winner.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive center-block" src="Images/Competition.png" alt = "Competition Shirt">
+                  <!--  <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
+                </div>
+              </div>
+                
+            </div>
+              
+             <!-- This is for the second slide, Walka-nation--> 
+              
+            <div class="item">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Walka-nation Charity. <span class="text-muted">Spread the love! </span></h2>
+                  <p class="lead">Introducing our very first Walk-nation program, where we donate 1 week of school supplies to local San Jose public schools for every $200 worth of sales.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive center-block" src="Images/walka-nation.png" alt="Walka-nation Shirt">
+                </div>
+              </div>
+            </div>
+              
+            <!-- This is for the third slide, Walkashirt experience--> 
+              
+          <div class="item">
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Wear it with pride. Share your #Walkashirts Experience on <span class="text-muted">Instagram, Twitter, and Facebook</span></h2>
+                <p class="lead">Show us your love! Tag us at #Walkashirts to enter a raffle to win a $50 giftcard. Please stay tuned for more details!</p>
+              </div>
+        
+              <div class="col-md-5">
+                  <img class="featurette-image img-responsive center-block" src="Images/walkashirts.png" alt="Walkashirt">
+              </div>
+           </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- /.carousel -->
+          <hr class="featurette-divider">
+            <div class="row">
+                <div class = "col-sm-4">
+                    <img src="Images/Donutshirt.png" width ="376" height ="482"> 
+                    <h2>Donut Shirt</h2>
+                    <p>One of our most popular shirts...100% Cotton and 100% Deliciousness</p>
+                    <a align="center" class="btn btn-info" href="http://nwptrio.altervista.org/Donut_Shirt.html" role="button">View details »</a> 
+                </div>
+                
+                <div class ="col-sm-4">
+                    <img src="Images/Lightsaber.png" width ="376" height ="482">
+                    
+                        <h2>Light Saber</h2>
+                        <p>May the force be with you! This Darth Vader Edition shirt is only available for a limited time!</p>
+                        <a align = "center" class="btn btn-info" href="http://nwptrio.altervista.org/Lightsaber.html" role="button">View details »</a>
+               
+                </div>
+                
+                <div class = "col-sm-4">
+                    <img src="Images/Sunglasses.png" width ="376" height ="482">
+                    <h2>Sunglasses</h2>
+                    <p>Reminder to protect your precious Eyes!</p>
+                    <a align="center" class="btn btn-info" href="http://nwptrio.altervista.org/Sunglasses_shirt.html" role="button">View details »</a>  
+                </div>
+            </div>
+          
+        <div class="row">
+             <div class = "col-sm-4">
+                    <img src="Images/Computer.png" width ="376" height ="482"> 
+                    <h2>Computer Shirt</h2>
+                    <p>Back in the days...there's something called a floppy disk. Join us in celebrating this breakthrough technology.</p>
+                    <a align="center" class="btn btn-info" href="http://nwptrio.altervista.org/Floppy_Disk.html" role="button">View details »</a> 
+             </div>
+            
+             <div class = "col-sm-4">
+                    <img src="Images/Hello.png" width ="376" height ="482"> 
+                    <h2>Hello Shirt</h2>
+                    <p>Hello...can you hear me? This is a phone booth. This is how you make calls in  the 90's</p>
+                    <a align="center" class="btn btn-info" href="http://nwptrio.altervista.org/Hello_Shirt.html" role="button">View details »</a> 
+             </div>
+          </div>
+            
+            
+            
+                
+          
+          
+          
+          
+                   <!-- A href is good but it is not as effective as using button onclick function in js .. Following link is sample example for using onclick function-->
+        <!-- http://www.w3schools.com/jsref/event_onclick.asp 
+      </div>-->
+      
+      
+      <hr class="featurette-divider">
+      
+      
+    </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
